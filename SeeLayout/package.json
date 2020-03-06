@@ -1,0 +1,19 @@
+{
+  "name": "SeeLayout",
+  "version": "1.0.0",
+  "description": "C++ Memory Layout Viewer",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "export": "electron-packager . --out=../Export/ --overwrite --ignore=\\.npmrc --icon=main/data/logo.ico"
+  },
+  "author": "Ramon Viladomat",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "latest",
+    "electron-packager": "latest",
+    "electron-rebuild": "latest",
+    "electron-reload": "latest"
+  },
+  "dependencies": {}
+}

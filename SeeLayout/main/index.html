@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>See++ Memory Layout Viewer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="cover" class="modal">
+      <p id="dragTitle">See++ MEMORY LAYOUT VIEWER</p>
+      <p id="coverLine"></p>
+      <div id="dragTarget" class="coverDrag"></div>
+    </div>
+    <div class="full">
+      <div class="fullOverviewFilter">
+        <input id="overviewFilter" placeholder="Filer" type="search"/>
+      </div>
+      <div class="fullOverviewInfo">
+        <canvas id="overviewCanvas"/>
+      </div>
+    </div>
+    <script>require('./src/main.js')</script>
+  </Body>
+</html>
