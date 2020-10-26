@@ -1,6 +1,7 @@
 # See++ Memory Layout Viewer
 
-**Work in progress**
+**Work in progress - Project Paused and replaced by [StructLayout](https://github.com/Viladoman/StructLayout)**
+
 
 C++ memory layout visualizer based on Clang LibTooling. 
 
